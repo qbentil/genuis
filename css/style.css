@@ -31,7 +31,8 @@
     position: relative;
     width: 100%;
     cursor: pointer;
-  }
+    overflow: hidden;
+}
 .img-box .image {
     display: block;
     width: 100%;
@@ -41,8 +42,9 @@
 .img-box .overlay {
     position: absolute;
     bottom: 0;
-    left: 100%;
-    right: 0;
+    /* left: 100%;
+    right: 0; */
+    top: 100%;
     background-color: #008CBA;
     opacity: 0.9;
     overflow: hidden;
@@ -54,12 +56,15 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
-    transition: 1s;
+    transition: 2s;
+}
+.overlay >* {
+  overflow: hidden;
 }
   
 .img-box:hover .overlay {
     width: 100%;
-    left: 0;
+    top: 0;
 }
   
 .overlay .name {
@@ -87,7 +92,7 @@
   width: 6rem;
   background-color: #008CBA;
 }
-.overlay .socials >*{
+.overlay .socials >*, .socials{
   overflow: hidden;
 }
 .overlay .socials>ul{
@@ -147,4 +152,18 @@
   font-size: 20px;
   color: #008CBA;
 
+}
+
+.btn-primary{
+  background-color: #008CBA;
+  width: 10rem;
+}
+
+.form-control, .btn{
+  outline: none;
+  /* border: 0; */
+}
+
+.form-control:active{
+  outline: 0;
 }
