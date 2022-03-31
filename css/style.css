@@ -7,6 +7,17 @@
 a{
   text-decoration: none !important;
 }
+
+.navbar > *{
+  overflow: hidden;
+}
+.navbar-brand {
+  overflow: hidden;
+  padding: 0;
+}
+.navbar-brand img {
+  overflow: hidden;
+}
   /* Make the image fully responsive */
 .carousel{
     height: 100vh;
