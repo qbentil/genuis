@@ -18,6 +18,18 @@ a{
 .navbar-brand img {
   overflow: hidden;
 }
+
+.navbar{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.navbar-brand {
+  color: #4d6de6 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
   /* Make the image fully responsive */
 .carousel{
     height: 100vh;
