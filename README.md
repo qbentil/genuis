@@ -1,2 +1,3 @@
-# genuis
-Team Work assigned. DCIT 205
+# TEAM GENIUS
+DCIT 205: Week 1-4 Project
+
